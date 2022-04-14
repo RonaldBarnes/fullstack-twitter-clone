@@ -1,0 +1,57 @@
+
+
+Folder structure: Lecture 368
+
+./src/components : React components
+./src/components/Homepage.js : "hero" landing, messages list,...
+./src/components/Authform.js : signup & signin logic
+
+./src/containers : React components connected to Redux state
+./src/containers/Main.js
+	^-- responsible for routing logic
+
+./src/hocs       : Described later "when we deal with authentication"
+
+./src/images
+
+./src/services   : logic relating to communicate with API
+
+./src/store      : Redux related logic: actions, reducers, action-creators...
+./src/store/actions
+	^--							: Lecture 377 @ 01:14 we start creating files
+									: Actions to dispatch via actionTypes
+./src/store/actions/auth.js
+./src/store/actions/error.js
+
+./src/services/api.js		: Lecture 377 @ 00:37 - a generic way to make an
+												: AJAX request
+
+./src/store/reducers
+./src/store/reducers/errors.js
+./src/store/actionTypes.js
+	^-- constants imported into other files
+./src/store/index.js
+	^-- configures store
+
+
+Move default ./App.js into ./src/containers: it will connect to Redux via
+"Provider" component.
+
+
+
+-------------------------------------------------------------------------------
+Lecture 370 @ 05:70:
+Always run:
+create-react-app
+THEN
+npm install
+-------------------------------------------------------------------------------
+
+
+
+
+./containers/Main.js:
+Switch & withRouter are deprecated from react-router-dom
+Switch gets replaced with Routes
+
+

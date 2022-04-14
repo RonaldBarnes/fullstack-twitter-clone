@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+	/* Start of Elie's code: */
+	background-color: #e6ecf0;
+	}
+
+/* Nav */
+.navbar {
+	margin-bottom: 1rem;
+	}
+
+/*
+	There is an <a> without href (we capture onClick):
+	it needs special styling via a:not([href])
+
+	i.e. Make "Log Out" be white as well. Elie's is black, not sure which I
+	prefer...
+
+.navbar a, .navbar a:not([href]) {
+*/
+.navbar a {
+	font-weight: bold;
+	color: white;
+	}
+
+.navbar li:hover {
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+.navbar-brand > img {
+	display: inline-block;
+	width: 20px;
+	border-radius: 2px;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	}
+
+ul.nav.navbar-nav li {
+	margin: 0 0.5rem;
+	}
+
+.onboarding > .navbar {
+	background-image: url("./images/nav-bg.png");
+	background-size: 100% 100%;
+	}
+
+
+.home-hero {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	text-shadow: 0 0 10px black;
+	background-image: url("./images/signed-out-home.jpg");
+	z-index: -1;
+	text-align: center;
+	padding: 1rem;
+	background-position: center center;
+	background-size: cover;
+	}
+
+/* Message styling Lecture 384 @ ~01:40 */
+#messages .list-group-item {
+	display: flex;
+	align-items: flex-start;
+	padding: 7px 20px 12px;
+	}
+
+/* I have no idea what this is going to do... FFS Elie... */
+#messages:not(.no-hover) .list-group-item:hover {
+	background-color: #e6ecf0;
+	}
+
+/* Lecture 389 @ 00:50 */
+.timeline-image {
+	border-radius: 10px;
+	height: 48px;
+	width: 48px;
+	margin: 2px 30px 10px 0px;
+	/* display: inline-block; */
+	}
+
+.btn:hover {
+	cursor: pointer;
+	}
+
+a.btn.btn-danger,
+a.btn.btn-danger:hover {
+	color: white;
+	}
+
+.btn-success {
+	margin-top: 10px;
+	}
+
