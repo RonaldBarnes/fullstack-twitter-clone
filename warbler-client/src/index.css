@@ -97,6 +97,10 @@ ul.nav.navbar-nav li {
 	/* display: inline-block; */
 	}
 
+
+.btn {
+	margin-top: 10px;
+	}
 .btn:hover {
 	cursor: pointer;
 	}
@@ -106,7 +110,4 @@ a.btn.btn-danger:hover {
 	color: white;
 	}
 
-.btn-success {
-	margin-top: 10px;
-	}
 
