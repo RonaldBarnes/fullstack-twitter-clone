@@ -1,0 +1,22 @@
+
+
+REMEMBER to run Mongo:
+
+mongod --config /etc/mongodb.conf
+
+
+
+
+
+"With express, you really have a lot of flexibility on your folder structure"
+-- lecture 355@04:00
+
+
+PATHS:
+
+index.js		entry point
+routes			
+models			
+middleware	
+handlers		Functions that are passed to app.route or app.get
+						Allows for easy scaling
