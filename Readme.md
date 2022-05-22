@@ -5,3 +5,7 @@ This project features:
 * JavaScript Web Tokens for user authentication
 * ...
 
+See branches for active code (under review before merging to master):
+* server
+* client
+
