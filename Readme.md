@@ -2,7 +2,8 @@
 
 This project features:
 * MongoDB
-* JavaScript Web Tokens for user authentication
+* JSON Web Tokens for user authentication
+* Express routing
 * ...
 
 See branches for active code (under review before merging to master):
