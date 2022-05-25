@@ -6,7 +6,9 @@ This project features:
 * Express routing
 * ...
 
-See branches for active code (under review before merging to master):
+Two separate repositories were merged into separate branches in one repository.
+
+See these branches for relevant projects:
 * server
 * client
 
