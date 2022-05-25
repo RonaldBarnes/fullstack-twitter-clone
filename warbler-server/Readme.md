@@ -3,8 +3,10 @@
 #### The backend server
 
 Lessons in writing an API, this time using:
-* JWT (JSON Web Tokens)
+* JSON Web Tokens (JWT) for user authentication
 * MongoDB
+* CORS (Cross Origin Request Sharing)
+* Express routing
 * Enhanced error reporting (i.e. error object contains `location` key
 	containing file name for easier debugging
 

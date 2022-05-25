@@ -1,9 +1,10 @@
 ### Fullstack Twitter clone
 
 This project features:
+* JSON Web Tokens (JWT) for user authentication
 * MongoDB
-* JSON Web Tokens for user authentication
 * Express routing
+* CORS (Cross Origin Request Sharing)
 * React
 * Redux
 
