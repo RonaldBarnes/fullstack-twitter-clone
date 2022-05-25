@@ -1,11 +1,16 @@
-### Warbler - a Twitter clone
+### Fullstack Twitter clone
 
-Lessons in writing an API, this time using:
-* JWT (JSON Web Tokens)
+This project features:
 * MongoDB
+* JSON Web Tokens for user authentication
+* Express routing
 * React
 * Redux
 
-Backend listens on port 3001 (see warbler-server/index.js PORT=3001)
-Frontend listens on port 3002 (see warbler-client/package.json scripts:)
+
+Two separate repositories were merged into separate branches in one repository.
+
+See these branches for relevant projects:
+* server
+* client
 
